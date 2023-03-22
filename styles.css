@@ -1,0 +1,69 @@
+#main-doc{
+    position: flex;
+    flex-direction: column;
+    
+}
+
+
+@media (max-width: 1600px) and (min-width: 250px){
+    #navbar_header{
+        display: block;
+        text-align: center;
+        padding-left: 40px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        border: 1px solid #000;
+        width: 75%;
+        
+    }
+}
+
+#navbar{
+    position: relative;
+    bottom: 20px;
+    right: 50px;
+    width: 33%; 
+}
+#navbar ul{
+    list-style:none; 
+    margin: 0px;
+}
+#navbar li{
+    display: inline-block;
+    border: 1px solid #000000a7;
+    color: black;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 75%;
+    text-align: center;
+
+}
+#Introduction{
+    position: absolute;
+    top: 25px;
+    left: 410px;
+    
+    font-weight: normal;
+    font-size: 30px;
+}
+p{
+    position: relative;
+    bottom: 725px;
+    left: 400px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.info{
+    position: relative;
+    bottom: 725px;
+    left: 400px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.last_one{
+    display: block;
+    border: 1px solid #000;
+}
