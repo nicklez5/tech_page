@@ -1,31 +1,36 @@
 #main-doc{
+    overflow-x: hidden;
     
-    overflow-y:visible;
-    height: 1600px;
+    
 }
+
 #navbar{
     position: fixed;
-    display: flex;
-    flex-direction: column;
+    
+     
     
 }
-#navbar_header{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #000;
-    margin-right: 50px;
-    padding-right: 47px;
-    padding-left: 35px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-size: 20px;
-    left: -8px;
-    top: -10px;
-    text-align: center;
-    width: 55%;
-    
+
+@media(max-width: 1600px) and (min-width: 550px){
+    #navbar_header{
+        
+        display: flex;
+        flex-direction: row;
+         
+        padding-left: 81px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-right: 18px;
+        margin-left: -8px;
+        margin-bottom: 10px;
+        width: 55%;
+        margin-top: -10px;
+        border: 1px solid #000;
+        font-size: 20px;
+        text-align: start;
+    } 
 }
+
 #navbar ul{
     
     list-style: none;
@@ -42,87 +47,145 @@
     text-align: left;
     left: -50px;
     top: -10px;
+    
 }
 .main-section{
-    position: relative;
+    position: absolute;
     display: inline-block;
-    flex-direction: row;
-    left: 225px;
-    padding-bottom: 25px;
-    padding-top: 25px;
-    font-size: 30px;
+    flex-direction: column;
+    left: 320px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 p{
     position: relative;
     display: block;
     flex-direction: row;
-    left: 325px;
-    padding-bottom: 25px;
-    padding-top: 25px;
     font-size: 15px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 
 }
-.info{
+
+/*.info{
     position: relative;
     display: block;
     flex-direction: row;
-    left: 325px;
-    padding-bottom: 25px;
+    left: 15px;
+    padding-bottom: 0px;
     padding-top: 25px;
     font-size: 15px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-/*
-#Introduction{
-    position: absolute;
-    display: inline-block;
-    flex-direction: row;
-    left: 325px;
-    padding-bottom: 25px;
-    padding-top: 25px;
-    font-size: 30px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif'
-}
-p{
-    padding-bottom: -30px;
-    bottom: 690px;
-    left: 25px;
-    right: 225px;
-    font-size: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    
-}
-.info{
-    display: absolute;
-    
-    padding-bottom: -45px;
-    bottom: 725px;
-    left: 400px;
-    font-size: 15px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+}*/
+
 #What_you_should_already_know{
 
     position: absolute;
     display: inline-block;
-    flex-direction: row;
+    flex-direction: column;
     left: 325px;
-    right: 990px;
-    top: 400px;
-    font-size: 30px;
+    
+    top: 350px;
+    font-size: 15px;
     
 }
 #JavaScript_and_Java{
-    position: relative;
+    position: absolute;
     display: inline-block;
-    flex-direction: row;
-    padding-top: 105px;
+    flex-direction: column;
+    padding-top: 120px;
     left: 325px;
-    right: 900px;
-    top: 275px;
-    font-size: 30px;
-}*/
+    top: 450px;
+    font-size: 25px;
+}
+#Hello_World{
+    position: absolute;
+    display: inline-block;
+    flex-direction: column;
+    padding-top: 120px;
+    left: 325px;
+    top: 775px;
+    font-size: 25px;
+}
+code{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.23);
+    font-size: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    padding: 10px;
+    width: 80%;
+}
+#Variables{
+    position: absolute;
+    display: inline-block;
+    flex-direction: column;
+    padding-top: 120px;
+    left: 325px;
+    top: 975px;
+    font-size: 25px;
+    
+}
+#Declaring_variables{
+    position: absolute;
+    display: inline-block;
+    flex-direction: column;
+    padding-top: 50px;
+    left: 325px;
+    top: 1245px;
+    font-size: 25px;
+}
+#Variable_scope{
+    position: absolute;
+    display: inline-block;
+    flex-direction: column;
+    padding-top: 50px;
+    left: 325px;
+    top: 1600px;
+    font-size: 25px;
+}
+#Global_variables{
+    position: absolute;
+    display: inline-block;
+    flex-direction: column;
+    padding-top: 50px;
+    left: 325px;
+    top: 1950px;
+    font-size: 25px;
+}
+
+#Constants{
+    position: absolute;
+    display: inline-block;
+    flex-direction: column;
+    padding-top: 50px;
+    left: 325px;
+    top: 2100px;
+    font-size: 25px;
+}
+#Data_types{
+    position: absolute;
+    display: inline-block;
+    flex-direction: column;
+    padding-top: 50px;
+    left: 325px;
+    top: 2600px;
+    font-size: 25px;
+}
+#if___else_statement{
+    position: absolute;
+    display: inline-block;
+    flex-direction: column;
+    padding-top: 50px;
+    left: 325px;
+    top: 3050px;
+    font-size: 25px;
+}
+#while_statement{
+    position: absolute;
+    display: inline-block;
+    flex-direction: column;
+    padding-top: 50px;
+    left: 325px;
+    top: 3750px;
+    font-size: 25px;
+}
